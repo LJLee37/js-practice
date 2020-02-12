@@ -38,8 +38,24 @@ console.log(title);
 console.errer("Test");
 */
 const title = document.getElementById("title");// = document.querySeloctor("#title");
-title.innerHTML = "Hi! From JS"
-title.style.color = "red"
-console.dir(title);
-document.title = "I own you now"
+//title.innerHTML = "Hi! From JS"
+//title.style.color = "red"
+//console.dir(title);
+//document.title = "I own you now"
 
+function handleResize(){
+	console.log("I have been resized");
+}
+
+function handleResize1(event){
+	console.log(event);
+}
+
+window.addEventListener("resize", handleResize1);
+window.addEventListener("resize", handleResize);//IMPORTANT!!
+
+function handleClick(){
+	title.style.color = "red";
+}
+
+title.addEventListener("click". handleClick);
