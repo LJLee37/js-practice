@@ -1,3 +1,4 @@
+/*
 console.log('Im Working. Im JS. Im Beautiul Im worth it');
 let temp1 = 1;//variable
 const temp2 = 2;//constant
@@ -30,6 +31,15 @@ const calculator = {
     }
 };
 
-const title = document.getElementById("title");
+
 
 console.log(title);
+
+console.errer("Test");
+*/
+const title = document.getElementById("title");// = document.querySeloctor("#title");
+title.innerHTML = "Hi! From JS"
+title.style.color = "red"
+console.dir(title);
+document.title = "I own you now"
+
