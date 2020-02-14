@@ -59,3 +59,25 @@ function handleClick(){
 }
 
 title.addEventListener("click". handleClick);
+
+/*
+if(condition){
+    //block;
+}
+else{
+    //block;
+}
+*/
+// true true;
+//let a = 1;
+//let b = 1;
+//let c = '1';
+// (a === b) true; 
+// true && true and
+// true || true or
+//
+/*
+const age = prompt ("How old are you?");
+//stops until prompt is done
+console.log(age);
+*/
