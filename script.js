@@ -37,7 +37,7 @@ console.log(title);
 
 console.errer("Test");
 */
-const title = document.getElementById("title");// = document.querySeloctor("#title");
+//const title = document.getElementById("title");// = document.querySeloctor("#title");
 //title.innerHTML = "Hi! From JS"
 //title.style.color = "red"
 //console.dir(title);
@@ -114,4 +114,8 @@ window.addEventListener("offline", handleOffline);
 window.addEventListener("online", handleOnline);
 
 */
+
+
+
+
 
