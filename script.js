@@ -151,3 +151,10 @@ function init(){
     title.addEventListener("click", handleClick);
 }
 init();
+
+const date = new Date();//Mon Feb 17 2020 20:49:59 GMT+0900
+date.getDay();//1 //Monday
+date.getDate();//17
+date.getHours();//20
+date.getMinutes();//49
+//won't be updated
